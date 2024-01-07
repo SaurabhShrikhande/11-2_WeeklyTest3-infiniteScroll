@@ -45,7 +45,7 @@ function display(){
     ele1.append(ele2);
    
   //  container.append(ele1);
-   ReactDOM.render(ele1, document.getElementById("container"));   //+
+  // ReactDOM.render(ele1, document.getElementById("container"));   //+ error
      
     ele2.addEventListener("load" , imageloader);
  });
